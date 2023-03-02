@@ -15,4 +15,3 @@ def test_extract_date():
 def test_format_times():
     time = [datetime.datetime(2023, 2, 28, 16, 38, 27, tzinfo=tzutc())]
     assert format_times(time) == ['02/28/2023, 16:38:27']
-
